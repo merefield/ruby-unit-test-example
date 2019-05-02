@@ -8,7 +8,7 @@ describe WelcomeController do
   end
   describe "should get 3" do
     it "adds two numbers" do
-      expect(WelcomeController.new.add_my_numbers(1,2)).to eq(2)
+      expect(WelcomeController.new.add_my_numbers(1,2)).to eq(3)
     end
   end
 end
